@@ -1,0 +1,24 @@
+{
+  "uuid": "925fe088-ba08-4923-a956-07fdb400c4ef",
+  "shortName": "Garage Door",
+  "longName": "Garage Door Remote",
+  "companyName": "Max and Tony",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "MENU_ICON",
+        "file": "icon-garage1.png",
+        "menuIcon": true
+      }
+    ]
+  }
+}

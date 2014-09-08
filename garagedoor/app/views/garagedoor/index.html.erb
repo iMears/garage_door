@@ -1,0 +1,18 @@
+<div class="top">
+	<% flash.each do |type, message| %>
+		<div class="container">
+			<div class="alert alert-<%=type%> alert-dismissable">
+				<%= message %>
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			</div>
+		</div>
+	<% end %>
+</div>
+
+<div class="center">
+	<h1>Garage Door</h1>
+	<p>click the button to open and close garage door</p>
+	<%= button_to "OPEN/CLOSE", :press, class: 'btn btn-default btn-success' %>
+	<div class="status">
+	</div>
+</div>
